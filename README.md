@@ -1,19 +1,29 @@
 numeros aleatorios para um trabalho
 
-
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
-void numeros_sorteio(){
-    int aleatorio,i;
-    for(i=1;i<=6;i++){
-        aleatorio=rand() %60 +1;
-         printf("\n %d\n ",aleatorio);
-    }
-     printf("\n");
-}
 int main(){
-    srand(time(NULL));
- numeros_sorteio();
-    return 0;
+
+     int jogadores;
+
+     printf("Numero de jogadores :");
+     scanf("%d",&jogadores);
+
+     if(jogadores>8){
+
+         printf("Numero de jogadores excedidos");
+
+     }
+
+     if(jogadores<1){
+
+         printf("Numero de jogadores insuficientes");
+     }
+
+     else
+
+
+printf("Numeros de jogadores = %d", jogadores );
+
+return 0;
+
 }
+                        
