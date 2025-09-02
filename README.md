@@ -1,8 +1,4 @@
-
-
-
-
-
+numeros aleatorios para um trabalho
 
 
 #include<stdio.h>
